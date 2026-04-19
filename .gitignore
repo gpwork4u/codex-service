@@ -1,0 +1,20 @@
+# Binary
+codex-service
+
+# Credentials
+credentials.json
+.codex-service/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+test.py

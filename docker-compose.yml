@@ -1,0 +1,9 @@
+services:
+  codex-service:
+    build: .
+    volumes:
+      - ~/.codex-service:/data
+    environment:
+      - CODEX_DATA_DIR=/data
+      - CODEX_LISTEN_ADDR=:8787
+    restart: unless-stopped
