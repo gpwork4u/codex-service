@@ -1,5 +1,7 @@
 # codex-service
 
+English | [繁體中文](README.zh-TW.md)
+
 A lightweight Go proxy that authenticates with OpenAI Codex via ChatGPT OAuth and exposes OpenAI-compatible API endpoints. Use your ChatGPT Plus/Pro subscription to power any tool that supports the OpenAI API.
 
 > **Disclaimer**: This project uses the same public OAuth endpoints and Codex API as the official [OpenAI Codex CLI](https://github.com/openai/codex). However, there is no guarantee that this usage complies with OpenAI's Terms of Service. **Use at your own risk.** The author assumes no responsibility for any account suspension or other consequences resulting from the use of this tool.
